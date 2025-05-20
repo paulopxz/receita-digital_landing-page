@@ -32,6 +32,20 @@ section img { max-width: 100%; border-radius: 8px; margin-top: 20px; }
   transform: scale(1.05);
 }
 
+.hero-conteudo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.hero-logo {
+  width: 100px;
+  height: auto;
+  border-radius: 10px;
+}
+
 @media (max-width: 768px) {
   .hero h1 { font-size: 2em; }
   .galeria-imagens img { width: 45%; }
@@ -41,4 +55,11 @@ section img { max-width: 100%; border-radius: 8px; margin-top: 20px; }
   .galeria-imagens img { width: 100%; }
   header { flex-direction: column; align-items: flex-start; }
   header nav a { margin: 10px 10px 0 0; }
+}
+
+@media (max-width: 600px) {
+  .hero-conteudo {
+    flex-direction: column;
+    text-align: center;
+  }
 }
