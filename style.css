@@ -8,7 +8,7 @@ header nav a { margin-left: 20px; color: white; text-decoration: none; font-weig
 section { padding: 40px; max-width: 1000px; margin: auto; background: white; margin-top: 20px; border-radius: 8px; }
 .features ul { list-style: none; padding: 0; }
 .features li { margin-bottom: 10px; }
-.precos { background: #ecf0f1; }
+/* .precos { background: #ecf0f1; } */
 footer { background: #19713F; color: white; padding: 20px; text-align: center; }
 .form-contato input, .form-contato textarea { width: 100%; padding: 10px; margin-bottom: 10px; }
 .form-contato button { background-color: #27ae60; color: white; border: none; padding: 10px 20px; border-radius: 4px; }
@@ -64,19 +64,14 @@ section img { max-width: 100%; border-radius: 8px; margin-top: 20px; }
   }
 }
 
-  /* Estilização geral da seção */
+
   .precos {
-    padding: 40px 20px;
-    background-color: #f7f7f7;
-    text-align: center;
+    /* padding: 40px 20px;*/
+    background-color: #ecf0f1;
+    text-align: left;
   }
 
-.precos h2 {
-    font-size: 2em;
-    margin-bottom: 20px;
-  }
 
-  /* Container responsivo para os cards */
   .pricing-container {
     display: flex;
     justify-content: center;
@@ -84,7 +79,7 @@ section img { max-width: 100%; border-radius: 8px; margin-top: 20px; }
     flex-wrap: wrap;
   }
 
-  /* Estilização dos cards */
+ 
   .pricing-card {
     background: #fff;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -99,13 +94,7 @@ section img { max-width: 100%; border-radius: 8px; margin-top: 20px; }
     transform: translateY(-5px);
   }
 
-  .pricing-card h3 {
-    font-size: 1.8em;
-    margin-bottom: 10px;
-  }
-
   .pricing-card .price {
-    font-size: 2em;
     color: #19713F;
     margin-bottom: 20px;
   }
