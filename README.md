@@ -19,14 +19,14 @@ Este aplicativo foi desenvolvido para fornecer receitas médicas digitais e info
 
 | Item do Projeto | Responsável |
 |-|-|
-| Trabalho escrito | FERNANDA |
-| Modelo físico do Banco de Dados | LUCAS |
+| Trabalho escrito | FERNANDA / LUCAS |
+| Modelo físico do Banco de Dados | FERNANDA / LUCAS |
 | Servidor Backend | REGINALDO |
 | Servidor Frontend | REGINALDO |
 | Git do Projeto | REGINALDO |
 | Git da Landing Page | MARCELO / PAULO |
-| Landing Page | MARCELO |
-| Vídeo demonstrativo do Projeto | PAULO |
+| Landing Page | MARCELO / PAULO |
+| Vídeo demonstrativo do Projeto | MARCELO / PAULO |
 
 ## Links do Projeto
 
