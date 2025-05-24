@@ -5,13 +5,14 @@ header nav a { margin-left: 20px; color: white; text-decoration: none; font-weig
 .hero h1 { font-size: 2.5em; color: #34402E}
 .hero p { font-size: 1.2em; margin: 20px 0; color: #34402E}
 .btn { background-color: #27ae60; color: white; padding: 12px 24px; border: none; border-radius: 4px; text-decoration: none; font-size: 1em; display: inline-block; margin-top: 10px; }
+.btn:hover { background-color: #19713F; }
 section { padding: 40px; max-width: 1000px; margin: auto; background: white; margin-top: 20px; border-radius: 8px; }
 .features ul { list-style: none; padding: 0; }
 .features li { margin-bottom: 10px; }
-/* .precos { background: #ecf0f1; } */
 footer { background: #19713F; color: white; padding: 20px; text-align: center; }
-.form-contato input, .form-contato textarea { width: 100%; padding: 10px; margin-bottom: 10px; }
-.form-contato button { background-color: #27ae60; color: white; border: none; padding: 10px 20px; border-radius: 4px; }
+.form-contato input, .form-contato textarea {font-family: Arial, Helvetica, sans-serif; width: 100%; padding: 10px; margin-bottom: 10px; }
+.form-contato button { font-size: 1em; background-color: #27ae60; color: white; border: none; padding: 10px 20px; border-radius: 4px; }
+.form-contato button:hover {background-color: #19713F;}
 section img { max-width: 100%; border-radius: 8px; margin-top: 20px; }
 
 .galeria-imagens {
@@ -66,7 +67,6 @@ section img { max-width: 100%; border-radius: 8px; margin-top: 20px; }
 
 
   .precos {
-    /* padding: 40px 20px;*/
     background-color: #ecf0f1;
     text-align: left;
   }
