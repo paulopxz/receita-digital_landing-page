@@ -63,3 +63,83 @@ section img { max-width: 100%; border-radius: 8px; margin-top: 20px; }
     text-align: center;
   }
 }
+
+<style>
+  /* Estilização geral da seção */
+  #precos {
+    padding: 40px 20px;
+    background-color: #f7f7f7;
+    text-align: center;
+  }
+
+  #precos h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+
+  /* Container responsivo para os cards */
+  .pricing-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  /* Estilização dos cards */
+  .pricing-card {
+    background: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+
+  .pricing-card:hover {
+    transform: translateY(-5px);
+  }
+
+  .pricing-card h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+  }
+
+  .pricing-card .price {
+    font-size: 2em;
+    color: #ff4a4a;
+    margin-bottom: 20px;
+  }
+
+  .pricing-card ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+
+  .pricing-card li {
+    margin: 10px 0;
+    font-size: 1em;
+  }
+
+  .pricing-card small {
+    font-size: 0.8em;
+    color: #777;
+  }
+
+  .pricing-card .btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+
+  .pricing-card .btn:hover {
+    background-color: #0056b3;
+  }
+</style>
+
