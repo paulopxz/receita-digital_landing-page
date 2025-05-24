@@ -1,4 +1,4 @@
-body { margin: 0; font-family: Arial, sans-serif; background-color: #f9f9f9; color: #333; }
+body { margin: 0; font-family: Arial, Helvetica, sans-serif; background-color: #f9f9f9; color: #333; }
 header { background-color: #19713F; color: white; padding: 20px 40px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; }
 header nav a { margin-left: 20px; color: white; text-decoration: none; font-weight: bold; }
 .hero { background: #BDF2A5; padding: 60px 40px; text-align: center; }
@@ -106,6 +106,7 @@ section img { max-width: 100%; border-radius: 8px; margin-top: 20px; }
   }
 
   .pricing-card li {
+    text-align: left;
     margin: 10px 0;
     font-size: 1em;
   }
@@ -129,4 +130,3 @@ section img { max-width: 100%; border-radius: 8px; margin-top: 20px; }
   .pricing-card .btn:hover {
     background-color: #19713F;
   }
-
