@@ -106,7 +106,7 @@ section img { max-width: 100%; border-radius: 8px; margin-top: 20px; }
 
   .pricing-card .price {
     font-size: 2em;
-    color: #ff4a4a;
+    color: #19713F;
     margin-bottom: 20px;
   }
 
@@ -128,7 +128,7 @@ section img { max-width: 100%; border-radius: 8px; margin-top: 20px; }
 
   .pricing-card .btn {
     display: inline-block;
-    background-color: #007bff;
+    background-color: #27ae60;
     color: #fff;
     text-decoration: none;
     padding: 12px 20px;
