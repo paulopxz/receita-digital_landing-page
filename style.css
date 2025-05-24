@@ -64,15 +64,14 @@ section img { max-width: 100%; border-radius: 8px; margin-top: 20px; }
   }
 }
 
-<style>
   /* Estilização geral da seção */
-  #precos {
+  .precos {
     padding: 40px 20px;
     background-color: #f7f7f7;
     text-align: center;
   }
 
-  #precos h2 {
+.precos h2 {
     font-size: 2em;
     margin-bottom: 20px;
   }
@@ -141,5 +140,4 @@ section img { max-width: 100%; border-radius: 8px; margin-top: 20px; }
   .pricing-card .btn:hover {
     background-color: #0056b3;
   }
-</style>
 
