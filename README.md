@@ -30,7 +30,7 @@ Este aplicativo foi desenvolvido para fornecer receitas médicas digitais e info
 
 ## Links do Projeto
 
-[Git do Projeto]()
+[Git do Projeto](https://github.com/naldolopes/projeto_integrador)
 
 [Git da Landing Page](https://github.com/paulopxz/receita-digital_landing-page/tree/main)
 
